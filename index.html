@@ -1,1 +1,137 @@
-<h1>hello world </h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarun Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h4 style="background-color: gray;color: white; display: inline; border-radius: 10%; padding: 5% ;"> < Tarun > </h4>
+                <!-- <img src="tarun.jpg" style="border-radius: 20%;" width="50%" alt=""> -->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Tarun Choudhary</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="tarun.jpg" alt="a picture of tarun smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>I can design websites for portfolios , E-Commerce website for buisness purposes  . I am passionate of designing creative and responsive websites .</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p> I can develop a website for E-Commerce . working on a Lifestyle Store E-Commerce website with front-end as well as back-end
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Portfolio</h3>
+                    <p>Can develop simple and creative portfolio this website is also made by me.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer </p>
+           
+           <div class="about-me__body">
+               <p>I am <b>Tarun CHOUDHARY</b>. I Have a passion of learning new things daily . Student of MCA (Master of Computer Applications ) at International Institute of Professional studies , Devi Ahilya vishwavidhyalaya Indore . I like developing web apps and android apps now working on web Development. later on switch to Android developer . </p>
+               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+           </div>
+           
+           <img src="radek-grzybowski-eBRTYyjwpRY-unsplash.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <h1>will be updated soon...</h1>
+                <!-- <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="tarun.jpg" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 02 -->
+                <!-- <a href="portfolio-item1.html" class="portfolio__item">
+                    <img src="etienne-boulanger-aafOjsh-9jU-unsplash.jpg" alt="" class="portfolio__img">
+                </a> -->
+                
+               
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:tarunchoudhary1805@gmail.com" class="footer__link">tarunchoudhary1805@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/tarun.choudhary.7106670?ref=bookmarks">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/_tarun_choudhary__/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/TARUNCH81407654">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/tarunchoudhary1805">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
