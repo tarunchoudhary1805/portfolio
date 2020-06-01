@@ -148,7 +148,7 @@ header {
 
 .nav {
     position: fixed;
-    background: url('/windows-C6T6vr1sQI0-unsplash.jpg')  ;
+    background: url('windows-C6T6vr1sQI0-unsplash.jpg')  ;
     background-size: cover;
     color: white;
     top: 0;
